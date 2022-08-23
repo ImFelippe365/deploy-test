@@ -10,6 +10,7 @@ function App() {
           Boa noite BATMAN <code>ReactJS</code>
         </p>
         <p>by Felippe</p>
+        <p>me deem ideias pra fazer o site pfrv</p>
         <a
           className="App-link"
           href="https://reactjs.org"
