@@ -1,0 +1,62 @@
+.cardContainer {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 32px;
+
+    background: rgba(63, 167, 174, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.8px);
+    -webkit-backdrop-filter: blur(9.8px);
+    border: 1px solid rgba(63, 167, 174, 0.7);
+}
+
+.cardContainer img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 180px;
+    object-position: 50% 30%;
+}
+
+.cardContainer p {
+    color: var(--secundary-text);
+    font-size: 14px;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.cardContainer h3 {
+    color: var(--tertiary-text);
+    margin-top: 16px;
+    font-size: 24px;
+}
+
+.cardContainer .socialNetworksContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 16px;
+    gap: 16px;
+}
+
+.socialNetworksContainer a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.socialNetworksContainer .socialNetworksIcon {
+    color: var(--light-gray);
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.socialNetworksContainer .socialNetworksIcon:hover {
+    color: var(--secundary-text);
+    transition: 0.2s all;
+    transform: translateY(-2px);
+}
