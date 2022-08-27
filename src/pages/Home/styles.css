@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.appContainer {
+    background: #181818;
+}
+
+header {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.labelTypewriter {
+    color: white;
+    font-size: 18px;
+    text-align: start;
+    font-weight: lighter;
+    margin-bottom: 16px;
+}
+
+.mainTypewriter {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 96px;
+    text-align: center;
+    font-weight: lighter;
+    font-weight: 600;
+}
+
+.userText {
+    color: #27ae60
+}
+
+.descriptionContainer {
+    font-size: 16px;
+    color: white;
+    width: 50%;
+    margin-top: 24px;
+
+}
