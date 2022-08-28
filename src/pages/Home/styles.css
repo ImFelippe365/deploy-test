@@ -5,7 +5,7 @@
 }
 
 body {
-    background: radial-gradient(circle, rgba(32,188,199,1) 0%, rgba(27,87,92,1) 41%, rgba(25,48,50,1) 69%, rgba(24,24,24,1) 90%);
+    background: radial-gradient(circle, rgba(32, 188, 199, 1) 0%, rgba(27, 87, 92, 1) 41%, rgba(25, 48, 50, 1) 69%, rgba(24, 24, 24, 1) 90%);
     width: 60%;
     height: 500vh;
     margin: auto;
@@ -14,6 +14,7 @@ body {
 main {
     margin-top: 64px;
 }
+
 
 .aboutUsContainer .aboutUsContent {
     margin-bottom: 36px;
@@ -28,4 +29,73 @@ main {
     font-weight: bold;
     font-size: 36px;
     margin-bottom: 48px;
+}
+
+.gamesContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 48px 32px;
+
+    background: rgba(63, 167, 174, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.8px);
+    -webkit-backdrop-filter: blur(9.8px);
+    border: 1px solid rgba(63, 167, 174, 0.7);
+
+    transform: all 0.4s;
+}
+
+.gamesContainer .gamesTabs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 130%;
+    margin-bottom: 24px;
+}
+
+.gamesContainer .gamesTabs section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: var(--light-gray); */
+    gap: 16px;
+    transition: all 0.2s;
+}
+
+.gamesContainer .gamesTabs .tab {
+    font-weight: normal;
+    font-size: 24px;
+    color: var(--primary-text);
+    cursor: pointer;
+}
+
+.gamesContainer .gamesTabs .activeTab {
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--primary-text);
+    cursor: pointer;
+    border-bottom: 2px solid var(--primary-text);
+}
+
+.gamesList ul {
+    list-style: circle;
+    padding-left: 20px;
+}
+
+.gamesList h4 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -16px;
+    margin-bottom: 8px;
+    color: var(--secundary-text);
+}
+
+.gamesList ul li {
+    font-size: 16px;
+    color: var(--secundary-text);
+    margin-bottom: 2px;
 }

@@ -1,0 +1,39 @@
+.commentContainer {
+    /* background-color: var(--onyx); */
+    margin-bottom: 16px;
+}
+
+.commentContainer div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.commentContainer label {
+    padding: 4px 10px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    border-radius: 16px;
+}
+
+.commentContainer h4 {
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--light-gray);
+}
+
+.commentDescription {
+    font-size: 14px;
+    color: var(--secundary-text);
+    font-weight: normal;
+}
+
+.commentTopPhrase {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 12px;
+    color: var(--secundary-text);
+}

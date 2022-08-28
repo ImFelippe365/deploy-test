@@ -1,10 +1,13 @@
 .cardContainer {
-    width: auto;
+    width: 40%;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 48px 32px;
+
+    cursor: pointer;
 
     background: rgba(63, 167, 174, 0.11);
     border-radius: 16px;
@@ -12,6 +15,12 @@
     backdrop-filter: blur(9.8px);
     -webkit-backdrop-filter: blur(9.8px);
     border: 1px solid rgba(63, 167, 174, 0.7);
+
+    transition: all 0.5s;
+}
+
+.cardContainer:hover {
+    transform: translateY(-20px);
 }
 
 .cardContainer img {
@@ -19,14 +28,14 @@
     height: 100px;
     object-fit: cover;
     border-radius: 180px;
-    object-position: 50% 30%;
+    object-position: 50% 40%;
 }
 
 .cardContainer p {
     color: var(--secundary-text);
     font-size: 14px;
     text-align: center;
-    margin-top: 6px;
+    padding: 12px 20px;
 }
 
 .cardContainer h3 {
@@ -59,4 +68,38 @@
     color: var(--secundary-text);
     transition: 0.2s all;
     transform: translateY(-2px);
+}
+
+.cardRowContainer {
+    width: 40%;
+    height: 1vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 48px 32px;
+    gap: 16px;
+    cursor: pointer;
+
+    background: rgba(63, 167, 174, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.8px);
+    -webkit-backdrop-filter: blur(9.8px);
+    border: 1px solid rgba(63, 167, 174, 0.7);
+
+    transition: all 0.5s;
+}
+
+.cardRowContainer img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 180px;
+    object-position: 50% 40%;
+}
+
+.cardRowContainer h3 {
+    color: var(--tertiary-text);
+    font-size: 20px;
 }

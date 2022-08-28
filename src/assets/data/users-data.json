@@ -1,0 +1,87 @@
+[
+    {
+        "name": "Felippe Rian",
+        "image": "user1.jpg",
+        "age": 19,
+        "autobiography": "Técnico em Informática pelo IFPB - Sousa, estudande no 3° periodo do curso de ADS no IFRN - Pau dos  Ferros. Possuo interesse em front-end, back-end e modelagem 3D",
+        "games": [
+            "Valorant",
+            "Marvel's Spiderman Remastered",
+            "Warframe",
+            "GTA V",
+            "Minecraft",
+            "Pokemon"
+        ],
+        "recommends": [
+            {
+                "type": {
+                    "name": "Anime",
+                    "color": "orange"
+                },
+                "name": "Black Clover",
+                "description": "Em um mundo onde todos possuem magia, no reino clover um garoto nasce sem nenhum tipo de magia. Apesar disso, ele sonha em se tornar o Rei Mago, o maior cargo dos cavaleiros mágicos que lutam para proteger o reino de qualquer mal. Por causa disso, ele é zombado e subestimado, mas seu esforço e perseverança mostram o quão longe ele vai chegar.",
+                "top-phrase": "'Estou enfrentando adversidades desde o dia em que nasci! Não importa quantos de vocês existam ou o que aconteça, vou superar tudo.' - Asta"
+            },
+            {
+                "type": {
+                    "name": "Anime",
+                    "color": "orange"
+                },
+                "name": "Tokyo Ghoul",
+                "description": "Começam a ocorrer estranhos assassinatos na cidade. A policia investiga e conclui que são ocasionados por criaturas que se alimenta de outros seres, na qual são chamados de 'ghouls'. Eles conseguem se misturar com o restante da população, então só podem ser diferenciados quando estão devorando alguém. Kaneki, o protagonista, acaba se envolvendo e sendo ferido severamente. Essas consequências dificultam sua vida acadêmica e social, mas ele acaba conhecendo pessoas que vão ajuda-lo a conviver com isso.",
+                "top-phrase": "'Ninguém nota sua dor, ninguém nota suas lágrimas, mas todos notam o seus erros.' - Kaneki"
+            },
+            {
+                "type": {
+                    "name": "Série",
+                    "color": "red"
+                },
+                "name": "Agentes da SHIELD",
+                "description": "Agente Phil Coulson da S.H.I.E.L.D. (Superintendência Humana de Intervenção, Espionagem, Logística e Dissuasão) reúne uma equipe de agentes para investigar o novo, o estranho e o desconhecido em todo o mundo, protegendo o comum do extraordinário. É uma série bastante longa mas que vale muito a pena. Há várias referências ao UCM que ocorreram e que estão por vir. Tem de tudo um pouco...",
+                "top-phrase": "'Os passos que você dá não precisam ser grandes, eles só precisam te levar na direção certa' - Jemma Simmons"
+            }
+        ],
+        "socialNetworks": {
+            "gitHub": "https://github.com/ImFelippe365",
+            "instagram": "https://www.instagram.com/felippe.png/"
+        }
+    },
+    {
+        "name": "Breno Soares",
+        "image": "user2.jpeg",
+        "age": 19,
+        "autobiography": "Técnico em Informática pelo IFPB - Sousa, estudande no 3° periodo do curso de ADS no IFRN - Pau dos  Ferros. Possuo interesse em front-end, back-end e modelagem 3D",
+        "games": [
+            "Valorant",
+            "Clash Royale",
+            "Clash of Clans"
+        ],
+        "recommends": [],
+        "socialNetworks": {
+            "gitHub": "https://github.com/ZBreno",
+            "instagram": "https://www.instagram.com/breno_sxz/"
+        }
+    },
+    {
+        "name": "Jose Neto",
+        "image": "user3.jpeg",
+        "age": 19,
+        "autobiography": "Técnico em Informática pelo IFPB - Sousa, estudande no 3° periodo do curso de ADS no IFRN - Pau dos  Ferros. Possuo interesse em front-end, back-end e modelagem 3D",
+        "games": [
+            "Hollow Knight",
+            "Darksouls",
+            "Elden Ring",
+            "Sekiro",
+            "Legends of Runeterra",
+            "Stardew Valley",
+            "Ori",
+            "Pokemon",
+            "Zelda"
+        ],
+        "recommends": [],
+        "socialNetworks": {
+            "gitHub": "https://github.com/CrowlerZN",
+            "instagram": "https://www.instagram.com/zzz.neto/"
+        }
+    }
+]
