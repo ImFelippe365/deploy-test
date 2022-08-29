@@ -33,7 +33,7 @@
 .commentTopPhrase {
     font-style: italic;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 14px;
     margin-top: 12px;
     color: var(--secundary-text);
 }

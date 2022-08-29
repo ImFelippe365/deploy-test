@@ -1,9 +1,53 @@
 [
     {
+        "name": "Breno Soares",
+        "image": "user2.jpeg",
+        "age": 19,
+        "autobiography": "Olá, sou Breno Soares. Curso ADS em Pau dos ferros. Tenho 19 anos. Possuo interesse no front-end.",
+        "games": [
+            "Valorant",
+            "Clash Royale",
+            "Clash of Clans"
+        ],
+        "recommends": [
+            {
+                "type": {
+                    "name": "Anime",
+                    "color": "orange"
+                },
+                "name": "RE:Zero",
+                "description": "Re:Zero conta a história de Subaru Natsuki, um NEET que não faz nada além de jogos. Quando ele e “Satella” são mortos misteriosamente, Subaru acorda e descobre que adquiriu uma habilidade que chama de “Retorno pela Morte”, permitindo-lhe reverter o tempo morrendo.",
+                "top-phrase": ""
+            },
+            {
+                "type": {
+                    "name": "Anime",
+                    "color": "orange"
+                },
+                "name": "Jujutsu Kaisen",
+                "description": "O jovem Yuta Okkotsu ganha o controle de um espírito extremamente poderoso, então um grupo de feiticeiros o matriculam na Tokyo Prefectural Jujutsu High School, para ajudá-lo a controlar esse poder e também para ficar de olho nele.",
+                "top-phrase": ""
+            },
+            {
+                "type": {
+                    "name": "Anime",
+                    "color": "orange"
+                },
+                "name": "Kimetsu no Yaiba",
+                "description": "Em Kimetsu no Yaiba, Tanjiro, um bondoso jovem que ganha a vida vendendo carvão descobre que sua família foi massacrada por um demônio. E, para piorar, Nezuko, sua irmã mais nova e única sobrevivente, também acabou transformada em um demônio.",
+                "top-phrase": ""
+            }
+        ],
+        "socialNetworks": {
+            "gitHub": "https://github.com/ZBreno",
+            "instagram": "https://www.instagram.com/breno_sxz/"
+        }
+    },
+    {
         "name": "Felippe Rian",
         "image": "user1.jpg",
         "age": 19,
-        "autobiography": "Técnico em Informática pelo IFPB - Sousa, estudande no 3° periodo do curso de ADS no IFRN - Pau dos  Ferros. Possuo interesse em front-end, back-end e modelagem 3D",
+        "autobiography": "Gosto muito de programação, especialmente direcionada ao front-end. Tenho curiosidade em aprender back-end, e admiro muito a área de UI/UX Design, e tenho um pouco de conhecimento sobre ela. ",
         "games": [
             "Valorant",
             "Marvel's Spiderman Remastered",
@@ -38,7 +82,7 @@
                 },
                 "name": "Agentes da SHIELD",
                 "description": "Agente Phil Coulson da S.H.I.E.L.D. (Superintendência Humana de Intervenção, Espionagem, Logística e Dissuasão) reúne uma equipe de agentes para investigar o novo, o estranho e o desconhecido em todo o mundo, protegendo o comum do extraordinário. É uma série bastante longa mas que vale muito a pena. Há várias referências ao UCM que ocorreram e que estão por vir. Tem de tudo um pouco...",
-                "top-phrase": "'Os passos que você dá não precisam ser grandes, eles só precisam te levar na direção certa' - Jemma Simmons"
+                "top-phrase": ""
             }
         ],
         "socialNetworks": {
@@ -47,26 +91,10 @@
         }
     },
     {
-        "name": "Breno Soares",
-        "image": "user2.jpeg",
-        "age": 19,
-        "autobiography": "Técnico em Informática pelo IFPB - Sousa, estudande no 3° periodo do curso de ADS no IFRN - Pau dos  Ferros. Possuo interesse em front-end, back-end e modelagem 3D",
-        "games": [
-            "Valorant",
-            "Clash Royale",
-            "Clash of Clans"
-        ],
-        "recommends": [],
-        "socialNetworks": {
-            "gitHub": "https://github.com/ZBreno",
-            "instagram": "https://www.instagram.com/breno_sxz/"
-        }
-    },
-    {
         "name": "Jose Neto",
         "image": "user3.jpeg",
         "age": 19,
-        "autobiography": "Técnico em Informática pelo IFPB - Sousa, estudande no 3° periodo do curso de ADS no IFRN - Pau dos  Ferros. Possuo interesse em front-end, back-end e modelagem 3D",
+        "autobiography": "Técnico em Informática pelo IFPB - Sousa, estudante no 3° periodo do curso de ADS no IFRN - Pau dos  Ferros. Possuo interesse em front-end, back-end e modelagem 3D",
         "games": [
             "Hollow Knight",
             "Darksouls",
@@ -78,7 +106,26 @@
             "Pokemon",
             "Zelda"
         ],
-        "recommends": [],
+        "recommends": [
+            {
+                "type": {
+                    "name": "Anime",
+                    "color": "orange"
+                },
+                "name": "One Piece",
+                "description": "Um dos principais animes da atualidade, oferece um universo incrível, com o ótimos personagens e uma historia cativante e emocionante. Verdadeiramente uma das melhores obras já feitas.",
+                "top-phrase": ""
+            },
+            {
+                "type": {
+                    "name": "Jogo",
+                    "color": "green"
+                },
+                "name": "Hollow Knight",
+                "description": "Um jogo muito subestimado por ser Indie mas que brilha e todos os aspectos, jogabilidade, historia, estilo de arte. Se estabelecendo como um dos melhores Metroidvania Soulslike de todos.",
+                "top-phrase": ""
+            }
+        ],
         "socialNetworks": {
             "gitHub": "https://github.com/CrowlerZN",
             "instagram": "https://www.instagram.com/zzz.neto/"

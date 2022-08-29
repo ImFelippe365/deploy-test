@@ -5,9 +5,9 @@
 }
 
 body {
-    background: radial-gradient(circle, rgba(32, 188, 199, 1) 0%, rgba(27, 87, 92, 1) 41%, rgba(25, 48, 50, 1) 69%, rgba(24, 24, 24, 1) 90%);
+    background: radial-gradient(circle, rgba(32, 188, 199, 1) -30%, rgba(27, 87, 92, 1) 41%, rgba(25, 48, 50, 1) 69%, rgba(24, 24, 24, 1) 90%);
     width: 60%;
-    height: 500vh;
+    height: 220vh;
     margin: auto;
 }
 
@@ -98,4 +98,8 @@ main {
     font-size: 16px;
     color: var(--secundary-text);
     margin-bottom: 2px;
+}
+
+.closeButton {
+    cursor: pointer;
 }
